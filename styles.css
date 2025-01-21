@@ -1,0 +1,58 @@
+body {
+  background-image: url("assets/img/bg.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: "Arial", sans-serif;
+  padding: 20px;
+}
+
+.text-content {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.animated-box {
+  width: 150px;
+  border-radius: 20px;
+  height: 200px;
+  background-color: #ffc107;
+  position: relative;
+  animation: floatUpDown 3s infinite alternate ease-in-out;
+  margin: 0 auto;
+}
+
+.box-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.xx {
+  font-weight: bold;
+}
+
+.container {
+  border-radius: 20px;
+  background-color: rgb(222, 222, 222, 0.82);
+  padding: 25px 20px;
+}
+
+.c1 {
+  font-weight: bold;
+  color: #ffbf00;
+}
+
+.c2 {
+  font-weight: bold;
+  color: red;
+}
+
+@keyframes floatUpDown {
+  from {
+    transform: translateY(0);
+  }
+
+  to {
+    transform: translateY(-20px);
+  }
+}
