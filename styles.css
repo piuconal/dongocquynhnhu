@@ -15,7 +15,6 @@ body {
   width: 150px;
   border-radius: 20px;
   height: 200px;
-  background-color: #ffc107;
   position: relative;
   animation: floatUpDown 3s infinite alternate ease-in-out;
   margin: 0 auto;
@@ -46,7 +45,16 @@ body {
   font-weight: bold;
   color: red;
 }
-
+#px1 {
+  background-image: url("assets/img/px1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#px2 {
+  background-image: url("assets/img/px2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
 @keyframes floatUpDown {
   from {
     transform: translateY(0);
